@@ -12,4 +12,4 @@ def main(s):
     while i < len(s):
         let += s[i].isalpha()
         i += 1
-    return
+    return let
