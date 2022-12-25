@@ -7,3 +7,14 @@ def main(s):
     Returns:
         int: return answer
     """
+    vorbls = "aeiouAEIOU"
+    i= 0
+    letters = 0
+    while len(s)>i:
+        if s[i] not in vorbls:
+            letters += 1
+        i += 1
+
+    return letters
+
+print(main('CodeschoolUz'))
