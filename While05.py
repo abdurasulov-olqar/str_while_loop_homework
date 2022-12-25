@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    lowerLetters = 0
+
+    while len(s)>i:
+        lowerLetters += s[i].islower()
+        i += 1
+    return lowerLetters
