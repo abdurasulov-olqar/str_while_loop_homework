@@ -7,7 +7,7 @@ def main(s):
     Returns:
         int: return answer
     """
-    vorbls = "aeiouAEIOU"
+    vorbls = "aeiou"
     i= 0
     letters = 0
     while len(s)>i:
