@@ -7,7 +7,7 @@ def main(s):
     Returns:
         int: return answer
     """
-    vorbls = "aeiou"
+    vorbls = "aeiouAEIOU"
     i= 0
     letters = 0
     while len(s)>i:
@@ -17,3 +17,4 @@ def main(s):
 
     return letters
 
+print(main('CodeschoolUz'))
