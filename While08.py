@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    oddDigits = 0
+
+    while len(s)>i:
+        if int(s[i])%2 == 1:
+            oddDigits += 1
+        i += 1
+    return oddDigits
