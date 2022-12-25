@@ -17,4 +17,3 @@ def main(s):
 
     return letters
 
-print(main('CodeschoolUz'))
