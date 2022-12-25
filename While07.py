@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    evenDigits = 0
+
+    while len(s)>i:
+        if int(s[i])%2 == 0:
+            evenDigits += 1
+        i += 1
+    return evenDigits
