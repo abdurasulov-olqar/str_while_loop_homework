@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    upperLetters = 0
+
+    while len(s)>i:
+        upperLetters += s[i].isupper()
+        i += 1 
+
+    return upperLetters
